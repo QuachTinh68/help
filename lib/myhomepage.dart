@@ -19,11 +19,14 @@ class MyHomePage extends StatelessWidget {
     var malop = "2025-2026.1.TIN";
     return Row(
       mainAxisAlignment: MainAxisAlignment.center,
-
+      crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Column(children: [Text(tenLop), Text(malop)]),
+            Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [Text(tenLop), Text(malop)]),
             Text("55 học viên"),
           ],
         ),
